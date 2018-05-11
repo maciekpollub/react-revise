@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import Container from './Container';
 
-export default class About extends Component{
+export default class App extends Component{
   render(){
     return(
       <div>
-      <h1>About {this.props.params}</h1>
+        <Container />
       </div>
     )
   }

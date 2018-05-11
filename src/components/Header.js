@@ -11,10 +11,13 @@ handleChange(e){
   render() {
     return (
       <header>
+        <p>
+          Here the header starts...
+        </p>
         <Title title={this.props.title}/>
         <input onChange={this.handleChange.bind(this)} />
         <p>
-          Here the header ends.
+          ..and here the header ends.
         </p>
       </header>  
     );
